@@ -4,6 +4,6 @@
     "start": "npx ts-node main.ts"
   },
   "dependencies": {
-    "create-typescript-npm-library": "file:../dist"
+    "sync-api-data": "file:../dist"
   }
 }

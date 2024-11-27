@@ -1,4 +1,4 @@
-import { HttpMessage, message } from 'create-typescript-npm-library';
+import { HttpMessage, message } from 'sync-api-data';
 
 if (require.main === module) {
   console.log('hello !');

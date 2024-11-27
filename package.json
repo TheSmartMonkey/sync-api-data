@@ -1,6 +1,6 @@
 {
-  "name": "create-typescript-npm-library",
-  "description": "Simple typescript app with jest to create a npm library with types",
+  "name": "sync-api-data",
+  "description": "Sync data from an api with a database",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
