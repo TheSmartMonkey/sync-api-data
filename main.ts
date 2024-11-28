@@ -29,7 +29,10 @@ function findModifiedKeysInLists(list1: any[], list2: any[]): string[] {
 
 // Example usage
 const list1 = [{ id: 1, nest: { c: 2, d: 4 } }, { id: 2 }, { id: 3, safe: true }];
-const list2 = [{ id: 1, nest: { c: 3, e: 5 } }, { id: 2, newField: 20 }, { id: 3, safe: true }];
+const list2 = [
+  { id: 1, nest: { c: 3, e: 5 } },
+  { id: 2, newField: 20 },
+  { id: 3, safe: true },
+];
 
 console.log(findModifiedKeysInLists(list1, list2)); // Output: ['0.nest.c', '1.newField']
-
