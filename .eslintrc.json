@@ -9,10 +9,9 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jest", "node", "prettier"],
+  "plugins": ["@typescript-eslint", "jest", "node"],
   "rules": {
     "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
     "semi": ["warn", "always"],
     "no-console": "warn",
     "no-throw-literal": "error",

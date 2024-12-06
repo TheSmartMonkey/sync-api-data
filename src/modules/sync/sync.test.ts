@@ -1,7 +1,6 @@
-import { describe, expect, test } from '@jest/globals';
 import { findModifiedKeysInLists } from './sync';
 
-describe('sync', () => {
+describe('sync unit tests', () => {
   // TODO: fix this test
   test('Should test findModifiedKeysInLists', async () => {
     // Given
